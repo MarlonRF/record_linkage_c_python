@@ -38,10 +38,4 @@ O objetivo deste repositório é fornecer um exemplo claro e detalhado de como i
 3. **Criação do Objeto Comparar**: Configuramos o objeto `Compare` para definir os critérios de comparação entre os registros.
 4. **Limpar o DataFrame Resultante**: Removemos colunas indesejadas do DataFrame resultante para uma análise mais clara dos dados comparados.
 
-## 📊 Resultados
 
-Vamos analisar os resultados. Observe que a ausência do apóstrofo (') nos títulos do conjunto B não impediu a correta associação das obras "The Hitchhiker's Guide to the Galaxy" e "Foundation's Edge". No entanto, a obra "The War of the Words" de Rachael Jolley foi erroneamente associada a "The War of the Worlds" de H. G. Wells. Nesse caso, a diferença na letra "l" foi significativa.
-
-## ✅ Conclusão
-
-A técnica de Record Linkage é uma ferramenta poderosa para integrar dados de diferentes fontes. Usando Python e a biblioteca `recordlinkage`, podemos implementar essa técnica de forma eficiente e precisa. A Lógica Difusa e algoritmos como o de Levenshtein ajudam a lidar com variações nos dados, melhorando a qualidade das correspondências. No entanto, é importante considerar o custo
